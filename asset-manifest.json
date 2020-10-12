@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Image-Crop-In-React/static/css/main.4f71de25.chunk.css",
+    "main.js": "/Image-Crop-In-React/static/js/main.f0c4a209.chunk.js",
+    "main.js.map": "/Image-Crop-In-React/static/js/main.f0c4a209.chunk.js.map",
+    "runtime-main.js": "/Image-Crop-In-React/static/js/runtime-main.22c19e14.js",
+    "runtime-main.js.map": "/Image-Crop-In-React/static/js/runtime-main.22c19e14.js.map",
+    "static/css/2.1bce3852.chunk.css": "/Image-Crop-In-React/static/css/2.1bce3852.chunk.css",
+    "static/js/2.d0462df0.chunk.js": "/Image-Crop-In-React/static/js/2.d0462df0.chunk.js",
+    "static/js/2.d0462df0.chunk.js.map": "/Image-Crop-In-React/static/js/2.d0462df0.chunk.js.map",
+    "index.html": "/Image-Crop-In-React/index.html",
+    "precache-manifest.fcc925b4633ff7558261d47d1f362c4a.js": "/Image-Crop-In-React/precache-manifest.fcc925b4633ff7558261d47d1f362c4a.js",
+    "service-worker.js": "/Image-Crop-In-React/service-worker.js",
+    "static/css/2.1bce3852.chunk.css.map": "/Image-Crop-In-React/static/css/2.1bce3852.chunk.css.map",
+    "static/css/main.4f71de25.chunk.css.map": "/Image-Crop-In-React/static/css/main.4f71de25.chunk.css.map",
+    "static/js/2.d0462df0.chunk.js.LICENSE.txt": "/Image-Crop-In-React/static/js/2.d0462df0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22c19e14.js",
+    "static/css/2.1bce3852.chunk.css",
+    "static/js/2.d0462df0.chunk.js",
+    "static/css/main.4f71de25.chunk.css",
+    "static/js/main.f0c4a209.chunk.js"
+  ]
+}
