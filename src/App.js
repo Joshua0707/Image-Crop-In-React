@@ -19,9 +19,20 @@ const App = () => {
   }
 
   const handleInput = (e) => {
+    console.log(e.target.files)
     const { name, type } = e.target.files[0];
-    setImageInput(e.target.files[0])
-    setFileProps({ name: name.replace(" ", "_"), type })
+    const supportedFormats = ['image/jpg','image/gif','image/png', 'image/jpeg'];
+    let file = (e.target.files ? e.target.files[0] :e.target.value || undefined);
+
+    if (file && file.type) {
+      if (supportedFormats.indexOf(file.type) < 0) {
+        alert('Only Images Supported!');
+      }
+      else {
+        setImageInput(e.target.files[0])
+        setFileProps({ name: name.replace(" ", "_"), type })
+      }
+    }
   }
 
   const handleFileDownload = () => {
@@ -43,7 +54,7 @@ const App = () => {
 
   const uploadBox = (
     <div className="upload-bx">
-      <input type="file" onInput={handleInput} />
+      <input type="file" onInput={handleInput} accept="image/gif, image/jpeg, image/png, image/jpg" />
       <span>{ handUp }</span>
       <span>Upload</span>
     </div>
