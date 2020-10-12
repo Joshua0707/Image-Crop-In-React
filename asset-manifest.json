@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Image-Crop-In-React/static/css/main.e01c2d0a.chunk.css",
-    "main.js": "/Image-Crop-In-React/static/js/main.f0c4a209.chunk.js",
-    "main.js.map": "/Image-Crop-In-React/static/js/main.f0c4a209.chunk.js.map",
+    "main.js": "/Image-Crop-In-React/static/js/main.86f8926d.chunk.js",
+    "main.js.map": "/Image-Crop-In-React/static/js/main.86f8926d.chunk.js.map",
     "runtime-main.js": "/Image-Crop-In-React/static/js/runtime-main.22c19e14.js",
     "runtime-main.js.map": "/Image-Crop-In-React/static/js/runtime-main.22c19e14.js.map",
     "static/css/2.1bce3852.chunk.css": "/Image-Crop-In-React/static/css/2.1bce3852.chunk.css",
     "static/js/2.d0462df0.chunk.js": "/Image-Crop-In-React/static/js/2.d0462df0.chunk.js",
     "static/js/2.d0462df0.chunk.js.map": "/Image-Crop-In-React/static/js/2.d0462df0.chunk.js.map",
     "index.html": "/Image-Crop-In-React/index.html",
-    "precache-manifest.47ea2ebb18f729ebefe2c5a946c62ea8.js": "/Image-Crop-In-React/precache-manifest.47ea2ebb18f729ebefe2c5a946c62ea8.js",
+    "precache-manifest.c8f524982fee9b51bd8bdc464dd5f1a4.js": "/Image-Crop-In-React/precache-manifest.c8f524982fee9b51bd8bdc464dd5f1a4.js",
     "service-worker.js": "/Image-Crop-In-React/service-worker.js",
     "static/css/2.1bce3852.chunk.css.map": "/Image-Crop-In-React/static/css/2.1bce3852.chunk.css.map",
     "static/css/main.e01c2d0a.chunk.css.map": "/Image-Crop-In-React/static/css/main.e01c2d0a.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.1bce3852.chunk.css",
     "static/js/2.d0462df0.chunk.js",
     "static/css/main.e01c2d0a.chunk.css",
-    "static/js/main.f0c4a209.chunk.js"
+    "static/js/main.86f8926d.chunk.js"
   ]
 }

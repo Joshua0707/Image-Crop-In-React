@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bbc76397940465f65975996dcd671159",
+    "revision": "d860359d72c483c92025da95826e9ed6",
     "url": "/Image-Crop-In-React/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Image-Crop-In-React/static/css/2.1bce3852.chunk.css"
   },
   {
-    "revision": "70f8acda71ed6ce45718",
+    "revision": "3ef17a18af207a4275b1",
     "url": "/Image-Crop-In-React/static/css/main.e01c2d0a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Image-Crop-In-React/static/js/2.d0462df0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70f8acda71ed6ce45718",
-    "url": "/Image-Crop-In-React/static/js/main.f0c4a209.chunk.js"
+    "revision": "3ef17a18af207a4275b1",
+    "url": "/Image-Crop-In-React/static/js/main.86f8926d.chunk.js"
   },
   {
     "revision": "5a8a267a793fcb0edc93",

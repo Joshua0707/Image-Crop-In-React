@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Image-Crop-In-React/precache-manifest.47ea2ebb18f729ebefe2c5a946c62ea8.js"
+  "/Image-Crop-In-React/precache-manifest.c8f524982fee9b51bd8bdc464dd5f1a4.js"
 );
 
 self.addEventListener('message', (event) => {
