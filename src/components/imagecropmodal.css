@@ -1,0 +1,72 @@
+
+
+.image-modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.555);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: grid;
+    place-items: center;
+}
+
+.image-modal .image-crop-bx {
+    background-color: white;
+    width: 600px;
+    max-width: calc(100% - 20px);
+    height: 600px;
+    max-height: calc(100% - 20px);
+    border-radius: 8px;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.image-crop-bx .modal-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.image-crop-bx .modal-toolbar span {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.image-crop-bx .modal-toolbar span:first-child {
+    background-color: #f13434;
+}
+
+.image-crop-bx .modal-toolbar span:last-child {
+    background-color: #0cc524;
+}
+
+.image-crop-bx .modal-toolbar span svg {
+    width: 20px;
+}
+
+.image-crop-bx .modal-crop-bx {
+    margin: auto;
+    width: 100%;
+    height: calc(100% - 50px);
+    background-color: #c0c0c0;
+    box-shadow: 0 0 5px #808080;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.image-crop-bx .modal-crop-bx .ReactCrop {
+    max-width: 100%;
+    max-height: 100%;
+}

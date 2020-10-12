@@ -1,0 +1,122 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  width: 100vw;
+
+  padding-top: 10%;
+  box-sizing: border-box;
+}
+
+.App svg {
+  width: 70px;
+  fill: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App .upload-bx {
+  width: 400px;
+  height: 400px;
+  max-width: calc(100% - 10px);
+  margin: auto;
+  border: 2px #61dafb dashed;
+  background-color: rgba(95, 158, 160, 0.105);
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.App .upload-bx [type=file] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.App .upload-bx span svg {
+  animation: upward .3s infinite alternate-reverse ease-in;
+}
+
+@keyframes upward {
+  from {
+    transform: translateY(25%);
+  } to {
+    transform: translateY(0);
+  }
+}
+
+.App .upload-bx span {
+  color: white;
+  height: fit-content;
+  pointer-events: none;
+}
+
+.App .upload-bx span:last-child {
+  margin-top: 30px;
+  font-size: 23px;
+}
+
+.App .result-bx {
+  width: 100vw;
+  display: none;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.App .result-bx.show {
+  display: flex;
+}
+
+.result-bx .crop-util {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.result-bx .crop-util span {
+  padding: 10px;
+  margin: 0 10px;
+  display: grid;
+  place-items: center;
+  border-radius: .345rem;
+  cursor: pointer;
+  transition: background ease-in-out .3s;
+}
+
+.result-bx .crop-util span svg {
+  width: 25px;
+  transition: all ease-in-out .3s;
+}
+
+.result-bx .crop-util span:hover {
+  background-color: rgba(96, 217, 251, 0.329);
+}
+
+.result-bx .crop-util span:hover svg {
+  fill: #61dafb;
+}
+
+.App .result-bx button {
+  background-color: #61dafb;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  transition: ease-in-out .3s background;
+  cursor: pointer;
+  border-radius: .345rem;
+}
+
+.App .result-bx button:hover {
+  background-color: #50b5d1;
+}
