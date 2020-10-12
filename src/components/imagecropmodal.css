@@ -14,9 +14,9 @@
 .image-modal .image-crop-bx {
     background-color: white;
     width: 600px;
-    max-width: calc(100% - 20px);
+    max-width: calc(100vw - 15px);
     height: 600px;
-    max-height: calc(100% - 20px);
+    max-height: calc(100vh - 20px);
     border-radius: 8px;
     padding: 1rem;
     box-sizing: border-box;

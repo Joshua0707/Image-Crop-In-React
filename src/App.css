@@ -19,7 +19,7 @@
 .App .upload-bx {
   width: 400px;
   height: 400px;
-  max-width: calc(100% - 10px);
+  max-width: calc(100vw - 20px);
   margin: auto;
   border: 2px #61dafb dashed;
   background-color: rgba(95, 158, 160, 0.105);
